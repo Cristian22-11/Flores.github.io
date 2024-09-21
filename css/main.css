@@ -21,7 +21,7 @@ body {
 }
 
 #lyrics {
-  font-size: 28px;
+  font-size: 36pt;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
@@ -29,12 +29,32 @@ body {
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
+  top: 350px;
+  right: 250px;
+  width: 250px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
   #lyrics {
-      font-size: 14px;
+      font-size: 12pt;
       margin-bottom: 530px;
       letter-spacing: 3px;
+      position: absolute;
+      left: 30px;
+      width: 65px;
+      top: 300px;
+  }
+  .titulo {
+    font-size: 12pt;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    color: yellow;
+    position: absolute;
+    font-weight: bold;
+    letter-spacing: 10px;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+    text-align: center;
+    z-index: 10000000;
+    top: 25px;
   }
 
 }
